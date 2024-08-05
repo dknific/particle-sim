@@ -20,9 +20,11 @@ canvas {
   z-index: 4;
 }
 
-.navbar > p {
+.navbar > a {
   margin-left: 16px;
   margin-right: 16px;
+  text-decoration: none;
+  color: white;
 }
 
 .text-container {
@@ -93,8 +95,17 @@ canvas {
     background: white;
   }
 
-  .navbar > p {
+  .navbar > a {
     margin: 0 34px;
+  }
+
+  .navbar > a:hover {
+    text-decoration: underline;
+    color: #d2d2ff;
+  }
+
+  .navbar > .home-link > svg > path:hover {
+    fill: #97ffa1 !important;
   }
 
   .text-container {

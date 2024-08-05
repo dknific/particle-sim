@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 	<head>
-		<meta charset=utf-8>
+		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Three.js Tornado by Davey Knific</title>
-    <link rel=stylesheet href=/src/styles/Globals.css>
+    <link rel="stylesheet" href=/src/styles/Globals.css>
 	</head>
 	<body>
     <div class="navbar">
-      <p>Home</p>
-      <p>github</p>
+      <a href="https://main.d37n0j3g8fojbr.amplifyapp.com/" class="home-link">
+        <svg width="25" height="25" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Glyph" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path
+            fill="#ffffff"
+            d="M30.854,16.548C30.523,17.43,29.703,18,28.764,18H28v11c0,0.552-0.448,1-1,1h-6v-7c0-2.757-2.243-5-5-5  s-5,2.243-5,5v7H5c-0.552,0-1-0.448-1-1V18H3.235c-0.939,0-1.759-0.569-2.09-1.451c-0.331-0.882-0.088-1.852,0.62-2.47L13.444,3.019  c1.434-1.357,3.679-1.357,5.112,0l11.707,11.086C30.941,14.696,31.185,15.666,30.854,16.548z"
+            id="XMLID_219_"
+          />
+        </svg>
+      </a>
+      <a href="https://github.com/dknific/particle-sim" target="_blank">View Code on GitHub</a>
     </div>
-    <div class=text-container>
+    <div class="text-container">
       <h1>Three.js Tornado</h1>
 
       <div class="instructions-container mobile-instructions">
-        <p>Tap and drag to explore.</p>
+        <p>Tap and drag to rotate.</p>
+        <p>Drag with 2 fingers to move.</p>
         <p>Pinch to zoom.</p>
       </div>
       <div class="instructions-container desktop-instructions">
-        <p>Click and drag to explore.</p>
+        <p>Click and drag to rotate.</p>
+        <p>Shift + click to move.</p>
         <p>Scroll to zoom in & out.</p>
       </div>
     </div>
@@ -28,7 +38,7 @@
       <div class="movement-button">Change Direction</div>
       <div class="color-button">Change Color</div>
     </div>
-		<script type=module src=/src/main.js></script>
+		<script type="module" src="/src/main.js"></script>
 	</body>
 </html>
 
