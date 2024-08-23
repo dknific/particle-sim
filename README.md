@@ -1,5 +1,10 @@
 # particle-sim
 
+A 3d, interactive particle tornado for your browser.
+Try the [live demo here!](https://main.d2atsgg6rcmly7.amplifyapp.com/)
+
+![Screenshot of the Three.js app](https://i.imgur.com/X1HHhrc.png)
+
 Bootstrapped using create-three-app by [Davey Knific](https://www.github.com/dknific).
 
 ## Dependencies:
