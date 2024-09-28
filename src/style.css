@@ -8,7 +8,7 @@ canvas {
 }
 
 .navbar {
-  background: #4a4a4a;
+  background: #464646;
   position: absolute;
   top: 0;
   display: flex;
@@ -25,6 +25,16 @@ canvas {
   margin-right: 16px;
   text-decoration: none;
   color: white;
+}
+
+.photo-holder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-image: url("/apple-touch-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text-container {
@@ -90,11 +100,7 @@ canvas {
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    background: white;
-  }
-
+@media (min-width: 924px) {
   .navbar > a {
     margin: 0 34px;
   }
@@ -104,8 +110,8 @@ canvas {
     color: #d2d2ff;
   }
 
-  .navbar > .home-link > svg > path:hover {
-    fill: #97ffa1 !important;
+  .home-link:hover {
+    opacity: 0.7;
   }
 
   .text-container {
